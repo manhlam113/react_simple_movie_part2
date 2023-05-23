@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'DM Sans', sans-serif;
+    @apply bg-slate-900
+  }
+}
+
+@layer components {
+  .page-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .movie-list .swiper-slide {
+    width: 300px;
+    margin-right: 25px;
+    height: auto;
+  }
+
+  .banner .swiper {
+    height: 100%;
+  }
+}
